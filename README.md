@@ -3,8 +3,9 @@
 Requires PIL + Python 3.7 installed
 
 Using the depth map extractor code from https://github.com/designer2k2/depth-map-extractor.
-Modified version to create an image that is compatible with HoloPLayStudio RGBD mode.
-Supports images taken in Huawei aperture mode.
+Modified version to create an image that is compatible with HoloPlayStudio RGBD mode.
+Supports images taken in Huawei aperture mode. The depth map is currently upscaled to match
+the color image size before merge.
 
 Usage:
 rgbd_image_creator.py input.jpg
